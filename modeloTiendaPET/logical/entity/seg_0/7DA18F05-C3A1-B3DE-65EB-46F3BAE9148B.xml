@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DA18F05-C3A1-B3DE-65EB-46F3BAE9148B" name="c_comuna">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-31 19:02:18 UTC</createdTime>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cut_comuna" id="44E8B51F-46D2-9317-799F-BBAFAA2C2989">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-31 19:02:24 UTC</createdTime>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="57290ED7-629F-A412-4D7F-51518BE1B873">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-31 19:03:05 UTC</createdTime>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cut_prov" id="032F695B-889D-DF66-6D40-03A3797234CB">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-31 19:06:55 UTC</createdTime>
+<generatorID>A942B4DA-5BE8-C860-B8D4-56CB1BB91F0E</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<referedAttribute>34109712-554F-9762-B0E8-1F03667E8B1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cut_region" id="0A93FE13-6F2F-CC35-C7B9-4F03F0D617C4">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-31 19:06:55 UTC</createdTime>
+<generatorID>A942B4DA-5BE8-C860-B8D4-56CB1BB91F0E</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<referedAttribute>5073FA57-0685-9965-4156-60F4712279BD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A36C99A4-DF31-FA4B-BC22-9CB3D36A3B8F" name="c_comuna PK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-31 19:02:53 UTC</createdTime>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44E8B51F-46D2-9317-799F-BBAFAA2C2989</attributeRef>
+<attributeRef>032F695B-889D-DF66-6D40-03A3797234CB</attributeRef>
+<attributeRef>0A93FE13-6F2F-CC35-C7B9-4F03F0D617C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

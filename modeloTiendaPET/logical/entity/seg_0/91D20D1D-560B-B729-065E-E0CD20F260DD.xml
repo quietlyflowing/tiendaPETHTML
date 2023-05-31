@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91D20D1D-560B-B729-065E-E0CD20F260DD" name="c_provincia">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-31 18:59:45 UTC</createdTime>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cut_prov" id="34109712-554F-9762-B0E8-1F03667E8B1D">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-31 18:59:52 UTC</createdTime>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<constraintName>cs_prov_cut_pv</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E69C3EB7-DCDD-06DA-98AE-C1812286DBE9">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-31 19:01:28 UTC</createdTime>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cut_region" id="5073FA57-0685-9965-4156-60F4712279BD">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-31 19:06:17 UTC</createdTime>
+<generatorID>9312A0DF-6FE4-6728-B4D1-75DBC13A5BCC</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<referedAttribute>D1F655F3-DEDB-403B-489B-827557571BDC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="780C9C82-E2D4-58C6-A97F-B95032C57C0A" name="c_provincia PK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-31 19:00:02 UTC</createdTime>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34109712-554F-9762-B0E8-1F03667E8B1D</attributeRef>
+<attributeRef>5073FA57-0685-9965-4156-60F4712279BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

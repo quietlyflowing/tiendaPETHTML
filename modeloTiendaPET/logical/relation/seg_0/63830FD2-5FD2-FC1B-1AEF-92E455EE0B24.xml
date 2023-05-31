@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="63830FD2-5FD2-FC1B-1AEF-92E455EE0B24">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-31 19:17:55 UTC</createdTime>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<sourcePk>8D88B559-3DFB-5CA9-C16B-75FA20B7BA06</sourcePk>
+<targetPk>DB999D2A-D61D-5CD6-DA44-DAE52DF3E57E</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F2769AE9-1D05-C252-BF87-EDD93338AC11</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>22649DE9-B756-65A8-8BA5-2AF2FA4C5BCE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
