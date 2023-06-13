@@ -22,12 +22,71 @@
 <engineerTo>
 <item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cut_comuna" id="2D4D7306-74E7-FEC3-53C1-DA6A511326BD">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:10:12 UTC</createdTime>
+<generatorID>0B3A52E7-4E48-69C0-476F-E0A2D45C4907</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<referedAttribute>C352ABEE-789E-B371-EC6E-1BE0AF06F5CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cut_prov" id="15EBB568-752D-6F0B-A7E6-454EA1AFC890">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:10:12 UTC</createdTime>
+<generatorID>0B3A52E7-4E48-69C0-476F-E0A2D45C4907</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<referedAttribute>EF4BDEC2-ED57-7D85-C61E-EF705E2E64AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cut_region" id="44AB05BA-5D46-4951-25B1-E482AF16ADBB">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:10:12 UTC</createdTime>
+<generatorID>0B3A52E7-4E48-69C0-476F-E0A2D45C4907</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<referedAttribute>A83B1165-68CD-E9B7-7EA7-4B205FC0BE33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="BB68A75C-F1E5-2A9E-8461-0D381BE2547A">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:10:12 UTC</createdTime>
+<generatorID>0B3A52E7-4E48-69C0-476F-E0A2D45C4907</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<referedAttribute>91EDEAE4-8C5F-1334-0A1B-91E16A4B8D94</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

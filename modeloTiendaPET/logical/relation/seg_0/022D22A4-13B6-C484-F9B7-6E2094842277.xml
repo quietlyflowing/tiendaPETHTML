@@ -15,4 +15,26 @@
 <targetEntity>1E45AF7B-8E3C-CCD2-C2F6-39F3D60BA87A</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="cantidad" id="D9896F63-A1C1-702E-86A2-64FB5BA03CC5">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:12:15 UTC</createdTime>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<engineerTo>
+<item key="8B70EA4B-B5B9-5786-974C-7570C4E12AD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>99</endValue>
+</rangeDef>
+</listOfRanges>
+</attribute>
+</attributes>
 </Relation>

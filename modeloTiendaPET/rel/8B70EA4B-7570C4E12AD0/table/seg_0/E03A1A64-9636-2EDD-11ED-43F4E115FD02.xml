@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E03A1A64-9636-2EDD-11ED-43F4E115FD02" name="usuarios">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>F2769AE9-1D05-C252-BF87-EDD93338AC11</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="correo_electronico" id="4CC2F33A-C211-C0CC-5039-19BFE6875909">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>ECAD2F28-92BB-C30A-A55B-002025FD1EEF</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="FF697381-AD95-32F4-97DC-52755E2D28B0">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>504712EC-7EE8-66ED-E8A0-33157D0C54AB</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="54F72632-E9EF-F666-9934-BE2D6BBA180A">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>7CEF3077-4FBC-DD73-BE2E-E63CFE587639</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="AB4FC55D-89B6-DC41-9608-882BE889B089">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>F21E27F4-CCB9-596C-266F-6E089AEFA1EE</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mail_verified_at" id="726D49DF-28A4-9481-1A1B-FAE332304551">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>63D0C6B5-DC9D-F834-4289-19B8DE1958D1</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clientes_c_comuna_cut_comuna" id="F1607702-88AA-B285-9AF9-BEFD324C7483">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>F481B64D-12BD-3CC6-1573-E15D7343D72C</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFFC1436-A904-722B-26DB-B9B4144FB78C" referredColumn="018D919D-6AF7-6246-0F97-970DE0D28880"/>
+</associations>
+</Column>
+<Column name="clientes_c_comuna_c_provincia_cut_prov" id="87200C40-D70A-DD0E-E2E5-270C8BBB4EE7">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>5839EBE1-1BF3-CAC1-412B-03A76E8816AD</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFFC1436-A904-722B-26DB-B9B4144FB78C" referredColumn="CF524815-03D7-9694-D475-C02EF291F92A"/>
+</associations>
+</Column>
+<Column name="clientes_c_comuna_c_provincia_c_regiones_cut_region" id="BD8FD7C2-BB6B-2655-531A-A577A4EBD993">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>DCC373D0-C1FF-FF66-5C5F-C28F5265C3A8</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFFC1436-A904-722B-26DB-B9B4144FB78C" referredColumn="B8CD0CC7-1B47-55F8-D70A-A4CDD3A46051"/>
+</associations>
+</Column>
+<Column name="clientes_rut" id="3B839586-DFA1-94AF-2154-A45B1E5CA26A">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>4BBB986B-8BBB-5CE9-B373-493F1BC9814E</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFFC1436-A904-722B-26DB-B9B4144FB78C" referredColumn="C409B866-75EB-DC32-2B79-6DAB837C3F1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A1FD248-ED22-7C82-EF18-45B6FF2980A0" name="usuarios_PK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>8D88B559-3DFB-5CA9-C16B-75FA20B7BA06</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CC2F33A-C211-C0CC-5039-19BFE6875909"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86C20E27-4046-AF9B-7AAC-87F8855AD8D8" name="usuarios__IDX">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>63830FD2-5FD2-FC1B-1AEF-92E455EE0B24</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F1607702-88AA-B285-9AF9-BEFD324C7483"/>
+<colUsage columnID="87200C40-D70A-DD0E-E2E5-270C8BBB4EE7"/>
+<colUsage columnID="BD8FD7C2-BB6B-2655-531A-A577A4EBD993"/>
+<colUsage columnID="3B839586-DFA1-94AF-2154-A45B1E5CA26A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C729B27-69FB-45EE-78B7-197515DDE923" name="usuarios_clientes_FK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>63830FD2-5FD2-FC1B-1AEF-92E455EE0B24</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1607702-88AA-B285-9AF9-BEFD324C7483"/>
+<colUsage columnID="87200C40-D70A-DD0E-E2E5-270C8BBB4EE7"/>
+<colUsage columnID="BD8FD7C2-BB6B-2655-531A-A577A4EBD993"/>
+<colUsage columnID="3B839586-DFA1-94AF-2154-A45B1E5CA26A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CDC27B0-BBE5-1776-9F02-20F15DEF9355" name="productos">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>BC37B6CD-6A69-D213-A165-E96C8ECFF298</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cr_prod" id="3214F116-FC3F-143E-0369-1530D25E87A5">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>C45DD421-A6BC-130C-9062-4595FE2877EA</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<constraintName>cs_prod_id_pv</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<description>Solo productos con numeros positivos</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="nombre" id="051A6EE5-E78A-0038-ED25-912B834845E2">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>E9E36808-5F0D-C074-0627-3E9195308F05</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="6A4D73F7-4D9C-43AE-B81A-DCE6C50E4589">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>13B44408-82A5-C9E2-D283-A9BA5B2024C3</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<constraintName>cs_prod_p_pv</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagen" id="F79CF0D3-F7C0-5449-EBEC-E0A78774BBDD">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>CCA68B93-9F52-3ABC-59AD-930720A087BA</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_mascota_id" id="CAAE92F0-BA12-1B22-F179-CCE2EEE42522">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>9B21D91A-C927-AD25-7118-4DE88DD3F005</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E303B24-966D-DF10-8215-1A9F76EBD87C" referredColumn="42D8A61A-863E-5B8C-B6D4-6000E3DB7D3E"/>
+</associations>
+</Column>
+<Column name="stock" id="5B9442B3-4C5D-ED35-7B93-CB1030EAD1D2">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>113B29F7-931B-E5C3-C440-8DE4F03EBF5B</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_categoria_id" id="7DBE5E36-00CC-2D6F-0266-16E7B9493A55">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>FF64C095-3D97-89A1-FC51-9750ED36A423</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E00B850-D61D-D4C3-38FD-EFE72C81F102" referredColumn="50920ED2-8CF7-800A-245D-2DE5EA179899"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65617A2D-618E-0132-71F6-7B7D35E4BAD8" name="productos_PK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>A9BC568C-F6F7-408D-8178-A8425880EDDB</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3214F116-FC3F-143E-0369-1530D25E87A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65499D68-A893-3B15-5297-BB9E09F98158" name="productos_c_categoria_FK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>F2E711F8-72F1-5FC6-7217-8A99B582BB74</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DBE5E36-00CC-2D6F-0266-16E7B9493A55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D190FDD3-CBC1-8576-105C-93FACD6483B3" name="productos_c_mascota_FK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-06-13 19:24:14 UTC</createdTime>
+<generatorID>671FD16E-D522-00E0-3A2E-4CA0905E9B32</generatorID>
+<ownerDesignName>modeloTiendaPET</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAAE92F0-BA12-1B22-F179-CCE2EEE42522"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
